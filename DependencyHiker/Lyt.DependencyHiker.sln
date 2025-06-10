@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.DependencyHiker.Reflector", "Lyt.DependencyHiker.Reflector\Lyt.DependencyHiker.Reflector.csproj", "{06237324-3014-7BD3-EB33-1949BFC8E028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{9A0CCAB9-4303-13B4-2371-F1B97FF5B728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.Framework.Interfaces", "..\..\Lyt.Framework\Lyt.Framework.Interfaces\Lyt.Framework.Interfaces.csproj", "{26E182A5-BF1B-91D4-51BD-1221C6ACB912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.DependencyHiker.Reflector.Tests", "Lyt.DependencyHiker.Reflector.Tests\Lyt.DependencyHiker.Reflector.Tests.csproj", "{8FF7A1A3-3E6D-E002-BAE3-6487D5E96827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06237324-3014-7BD3-EB33-1949BFC8E028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06237324-3014-7BD3-EB33-1949BFC8E028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06237324-3014-7BD3-EB33-1949BFC8E028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06237324-3014-7BD3-EB33-1949BFC8E028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E182A5-BF1B-91D4-51BD-1221C6ACB912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E182A5-BF1B-91D4-51BD-1221C6ACB912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E182A5-BF1B-91D4-51BD-1221C6ACB912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E182A5-BF1B-91D4-51BD-1221C6ACB912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF7A1A3-3E6D-E002-BAE3-6487D5E96827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF7A1A3-3E6D-E002-BAE3-6487D5E96827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF7A1A3-3E6D-E002-BAE3-6487D5E96827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF7A1A3-3E6D-E002-BAE3-6487D5E96827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26E182A5-BF1B-91D4-51BD-1221C6ACB912} = {9A0CCAB9-4303-13B4-2371-F1B97FF5B728}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74F90CB6-07BA-4327-9414-11D295B2E0A4}
+	EndGlobalSection
+EndGlobal
