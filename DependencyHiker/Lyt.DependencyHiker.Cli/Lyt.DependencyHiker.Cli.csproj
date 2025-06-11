@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishAot>true</PublishAot>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Lyt.Framework\Lyt.Console\Lyt.Console.csproj" />
+    <ProjectReference Include="..\..\..\Lyt.Framework\Lyt.FileSystem\Lyt.FileSystem.csproj" />
+    <ProjectReference Include="..\..\..\Lyt.Framework\Lyt.Framework.Interfaces\Lyt.Framework.Interfaces.csproj" />
+    <ProjectReference Include="..\..\..\Lyt.Framework\Lyt.Messenger\Lyt.Messenger.csproj" />
+    <ProjectReference Include="..\..\..\Lyt.Framework\Lyt.Utilities\Lyt.Utilities.csproj" />
+    <ProjectReference Include="..\Lyt.DependencyHiker.Reflector\Lyt.DependencyHiker.Reflector.csproj" />
+  </ItemGroup>
+
+</Project>

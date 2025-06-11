@@ -1,24 +1,36 @@
 ﻿namespace Lyt.DependencyHiker.Reflector;
 
-public sealed class ReflectionGraph(Assembly rootAssembly, List<string> excludedNamespaces)
+public sealed class GraphBuilder
 {
-    private readonly Assembly rootAssembly = rootAssembly;
-    private readonly List<string> excludedNamespaces = excludedNamespaces;
+    private readonly List<string> excludedNamespaces; 
+    private readonly Assembly rootAssembly;
+
     public readonly Graph<string, AssemblyVertex> AssemblyDependenciesGraph = new(64);
     public readonly Graph<string, ClassVertex> ClassInheritanceGraph = new(512);
     public readonly Graph<string, InterfaceVertex> InterfaceInheritanceGraph = new(64);
 
-    public void BuildGraph()
+    public GraphBuilder(GraphBuilderParameters graphBuilderParameters)
     {
+        this.excludedNamespaces = graphBuilderParameters.ExcludedNamespaces;
         ReflectionUtilities.SetExcludedNamespaces(this.excludedNamespaces);
 
+        // TODO: Load root assembly from provided path 
+        string rootAssemblyPath = graphBuilderParameters.RootAssemblyPath;
+        var assembly = 
+            Assembly.GetEntryAssembly() ?? 
+                throw new Exception("Failed to load the specified root assembly.");
+        this.rootAssembly = assembly;
+    }
+
+    public void BuildGraph()
+    {
         // Root vertex 
         var assemblyName = this.rootAssembly.GetName();
         var assemblyVertex = new AssemblyVertex(assemblyName);
         if (!assemblyVertex.Load())
         {
             // Failed to load the root assembly !
-            throw new Exception("Failed to load the specified root assembly.");
+            throw new Exception("Failed to analyse the specified root assembly.");
         }
 
         this.AssemblyDependenciesGraph.AddVertex(assemblyVertex);

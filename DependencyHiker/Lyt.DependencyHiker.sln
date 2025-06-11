@@ -11,6 +11,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.Framework.Interfaces", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.DependencyHiker.Reflector.Tests", "Lyt.DependencyHiker.Reflector.Tests\Lyt.DependencyHiker.Reflector.Tests.csproj", "{8FF7A1A3-3E6D-E002-BAE3-6487D5E96827}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.Console", "..\..\Lyt.Framework\Lyt.Console\Lyt.Console.csproj", "{EC579572-38ED-5689-7755-14DB76658768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.Utilities", "..\..\Lyt.Framework\Lyt.Utilities\Lyt.Utilities.csproj", "{C007E736-55C3-891A-C72D-584AD8184EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.FileSystem", "..\..\Lyt.Framework\Lyt.FileSystem\Lyt.FileSystem.csproj", "{2E0BC44C-B788-525C-6B88-9D763BF3021C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.DependencyHiker.Cli", "Lyt.DependencyHiker.Cli\Lyt.DependencyHiker.Cli.csproj", "{B9ABDA97-0125-4BC1-B517-FA99CCEDBEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.Messenger", "..\..\Lyt.Framework\Lyt.Messenger\Lyt.Messenger.csproj", "{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{089100B1-113F-4E66-888A-E83F3999EAFD}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +44,36 @@ Global
 		{8FF7A1A3-3E6D-E002-BAE3-6487D5E96827}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FF7A1A3-3E6D-E002-BAE3-6487D5E96827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FF7A1A3-3E6D-E002-BAE3-6487D5E96827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC579572-38ED-5689-7755-14DB76658768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC579572-38ED-5689-7755-14DB76658768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC579572-38ED-5689-7755-14DB76658768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC579572-38ED-5689-7755-14DB76658768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C007E736-55C3-891A-C72D-584AD8184EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C007E736-55C3-891A-C72D-584AD8184EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C007E736-55C3-891A-C72D-584AD8184EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C007E736-55C3-891A-C72D-584AD8184EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0BC44C-B788-525C-6B88-9D763BF3021C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0BC44C-B788-525C-6B88-9D763BF3021C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0BC44C-B788-525C-6B88-9D763BF3021C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0BC44C-B788-525C-6B88-9D763BF3021C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9ABDA97-0125-4BC1-B517-FA99CCEDBEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9ABDA97-0125-4BC1-B517-FA99CCEDBEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9ABDA97-0125-4BC1-B517-FA99CCEDBEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9ABDA97-0125-4BC1-B517-FA99CCEDBEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{26E182A5-BF1B-91D4-51BD-1221C6ACB912} = {9A0CCAB9-4303-13B4-2371-F1B97FF5B728}
+		{EC579572-38ED-5689-7755-14DB76658768} = {9A0CCAB9-4303-13B4-2371-F1B97FF5B728}
+		{C007E736-55C3-891A-C72D-584AD8184EE3} = {9A0CCAB9-4303-13B4-2371-F1B97FF5B728}
+		{2E0BC44C-B788-525C-6B88-9D763BF3021C} = {9A0CCAB9-4303-13B4-2371-F1B97FF5B728}
+		{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2} = {9A0CCAB9-4303-13B4-2371-F1B97FF5B728}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74F90CB6-07BA-4327-9414-11D295B2E0A4}
