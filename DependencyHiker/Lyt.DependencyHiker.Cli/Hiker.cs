@@ -16,7 +16,6 @@ internal class Hiker() : ConsoleBase(
         // Services 
         new Tuple<Type, Type>(typeof(ILogger), typeof(ConsoleLogger)),
         new Tuple<Type, Type>(typeof(IDispatch), typeof(NullDispatcher)),
-        new Tuple<Type, Type>(typeof(IMessenger), typeof(Messenger)),
         new Tuple<Type, Type>(typeof(IProfiler), typeof(Profiler)),
     ])
 {

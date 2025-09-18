@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36202.13
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11012.119 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.DependencyHiker.Reflector", "Lyt.DependencyHiker.Reflector\Lyt.DependencyHiker.Reflector.csproj", "{06237324-3014-7BD3-EB33-1949BFC8E028}"
 EndProject
@@ -18,8 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.FileSystem", "..\..\Lyt.Framework\Lyt.FileSystem\Lyt.FileSystem.csproj", "{2E0BC44C-B788-525C-6B88-9D763BF3021C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.DependencyHiker.Cli", "Lyt.DependencyHiker.Cli\Lyt.DependencyHiker.Cli.csproj", "{B9ABDA97-0125-4BC1-B517-FA99CCEDBEBC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyt.Messenger", "..\..\Lyt.Framework\Lyt.Messenger\Lyt.Messenger.csproj", "{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{089100B1-113F-4E66-888A-E83F3999EAFD}"
 	ProjectSection(SolutionItems) = preProject
@@ -60,10 +58,6 @@ Global
 		{B9ABDA97-0125-4BC1-B517-FA99CCEDBEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9ABDA97-0125-4BC1-B517-FA99CCEDBEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9ABDA97-0125-4BC1-B517-FA99CCEDBEBC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,7 +67,6 @@ Global
 		{EC579572-38ED-5689-7755-14DB76658768} = {9A0CCAB9-4303-13B4-2371-F1B97FF5B728}
 		{C007E736-55C3-891A-C72D-584AD8184EE3} = {9A0CCAB9-4303-13B4-2371-F1B97FF5B728}
 		{2E0BC44C-B788-525C-6B88-9D763BF3021C} = {9A0CCAB9-4303-13B4-2371-F1B97FF5B728}
-		{EF8EDF3D-26D5-09F5-70CA-BE91C893A5D2} = {9A0CCAB9-4303-13B4-2371-F1B97FF5B728}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74F90CB6-07BA-4327-9414-11D295B2E0A4}
